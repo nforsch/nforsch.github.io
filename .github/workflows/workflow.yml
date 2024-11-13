@@ -8,11 +8,9 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-        with:
-          ref: dummy-data    #checkout different branch
 
       - name: Generate Directory Listings
-        uses: nforsch/nforsch.github.io
+        uses: jayanta525/github-pages-directory-listing@v4.0.0
         with:
           FOLDER: lv-orient      #directory to generate index
 

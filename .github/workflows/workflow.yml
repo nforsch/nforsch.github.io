@@ -12,7 +12,7 @@ jobs:
           ref: dummy-data    #checkout different branch
 
       - name: Generate Directory Listings
-        uses: nforsch/nforsch.github.io@v1
+        uses: nforsch/nforsch.github.io
         with:
           FOLDER: lv-orient      #directory to generate index
 

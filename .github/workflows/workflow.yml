@@ -12,9 +12,9 @@ jobs:
           ref: dummy-data    #checkout different branch
 
       - name: Generate Directory Listings
-        uses: jayanta525/github-pages-directory-listing@v4.0.0
+        uses: nforsch/nforsch.github.io@v1
         with:
-          FOLDER: data      #directory to generate index
+          FOLDER: lv-orient      #directory to generate index
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

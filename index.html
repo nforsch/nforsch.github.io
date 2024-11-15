@@ -10,7 +10,7 @@
     <ul id="folder-list"></ul>
 
     <script>
-        fetch('/')
+        fetch('/Projects')
             .then(response => response.json())
             .then(data => {
                 const folderList = document.getElementById('folder-list');
